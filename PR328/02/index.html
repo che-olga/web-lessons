@@ -7,6 +7,15 @@
 </head>
 <body>
     <h1>Основні HTML теги</h1>
+    <div>
+        <h2>Зміст</h2>
+        <p><a href="#p1">Форматування тексту</a></p>
+        <p><a href="#p2">Розмітка коду</a></p>
+        <p><a href="#p3">Цитати та визначення</a></p>
+        <p><a href="#p4">Розриви</a></p>
+        <p><a href="#p5">Списки</a></p>
+        <p><a href="#p6">Гіперпосилання</a></p>
+    </div>
     <!-- Заголовки -->
     <div>
         <h2>Заголовок 2 рівня</h2>
@@ -18,7 +27,7 @@
     <hr>
     <!--Форматування тексту-->
     <div>
-        <h2>Форматування тексту</h2>
+        <h2 id="p1">Форматування тексту</h2>
         <p>Lorem <strong>ipsum</strong> dolor sit <em>amet</em> consectetur adipisicing elit. 
             <mark>Ratione</mark> modi tempora corporis ex velit laborum neque soluta pariatur 
             officia <small>debitis</small> similique, unde, 
@@ -29,7 +38,7 @@
     <hr>
     <!--Розмітка коду-->
     <div>
-        <h2>Розмітка коду</h2>
+        <h2 id="p2">Розмітка коду</h2>
         <h3>Оператор розгалуження</h3>
         <code> if (x>0) cout << x; </code>
         <p>Натисніть <kbd>Alt</kbd></p>
@@ -49,7 +58,7 @@
 <hr>
 <!--Цитати та визначення-->
 <div>
-    <h2>Цитати та визначення</h2>
+    <h2 id="p3">Цитати та визначення</h2>
     <p><dfn><abbr title="Hypertext Markup Language">HTML</abbr> - мова розмітки гіпертексту</dfn></p>
     <p>Як сказав <cite>Галілей</cite> <q>Все ж таки вона крутиться!</q> </p>
     <blockquote>За одну ночь нельзя изменить жизнь. Но за одну ночь можно изменить мысли, которые навсегда изменят твою жизнь.</blockquote>
@@ -57,7 +66,7 @@
 <hr>
 <!--Розриви-->
 <div>
-    <h2>Розриви</h2>
+    <h2 id="p4">Розриви</h2>
     <p>
         Так ніхто не кохав. Через тисячі літ<br>
         лиш приходить подібне кохання.<br>
@@ -65,9 +74,47 @@
         І земля убирається зрання…
     </p>
     <p>Lorem ipsum dolor sit amet consectetur Іванов&nbsp;І.І. adipisicing elit. Incidunt qui quibusdam adipisci Він народився у 1999&nbsp;р. hic inventore dolor deleniti illum consequatur nostrum doloremque tempore sequi quasi aspernatur, labore corrupti accusamus sit explicabo. Ratione.</p>
-    
-
 </div>
+<hr>
+<!--Списки-->
+<div>
+    <h2 id="p5">Списки</h2>
+    <h3>Нумеровані</h3>
+    <ol>
+        <li>Встати з ліжка</li>
+        <li>Почистити зуби</li>
+        <li>Зайти в google meet</li>
+        <li>Поснідати</li>
+    </ol>
+    <h3>Марковані</h3>
+    <ul>
+        <li>Встати з ліжка</li>
+        <li>Почистити зуби</li>
+        <li>Зайти в google meet</li>
+        <li>Поснідати</li>
+    </ul>
 
+    <h3>Список визначень</h3>
+    <dl>
+        <dt>Масив</dt><dd>впорядкований набір однотипних даних </dd>
+        <dt>Змінна</dt><dd>Іменована область пам'яті</dd>
+        <dt>Алгоритм</dt><dd>Скінчена послідовність інструкцій, яка приводить до результату</dd>
+    </dl>
+    <hr>
+    <!--Гіперпосилання-->
+    <div>
+        <h2 id="p6">Гіперпосилання</h2>
+        <p><a href = "https://kmrf.kiev.ua/" target = "_blanc">Сайт КМРФ</a></p>
+        <p><a href = "mailto:college@kmrf.kiev.ua">e-mail КМРФ</a></p>
+        <p><a href = "tel:+380443332235" > (044) 333-22-35</a></p>
+        <p><a href = "../01/index.html" target = "_blanc">Моя сторінка</a></p>
+    </div>
+</div>
+<hr>
+    <!--Зображення-->
+    <div>
+        <h2>Зображення</h2>
+        <img src="img/my_photo.png" alt="Моє фото" height = "150px">
+    </div>
 </body>
 </html>
